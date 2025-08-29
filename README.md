@@ -1,15 +1,15 @@
-Clase-3.-Estructura-Base-html-y-etiquetas
+# Clase-3.-Estructura-Base-html-y-etiquetas
 
-Descripción
+## Descripción
 Página web interactiva dedicada a la película **Ratatouille** de Pixar Animation Studios. Este proyecto demuestra el uso de estructura HTML semántica, etiquetas fundamentales y diseño web responsivo para crear una experiencia informativa y atractiva sobre esta icónica película de animación.
 
-Autor
+## Autor
 - **Nombre:** Claudia Lorena Cerquera
 - **Fecha:** 28/08/2025
 - **Materia:** Hombre Máquina
 - **Contacto:** clcerquerag@academia.usbbog.edu.co
 
-Objetivo del Proyecto
+## Objetivo del Proyecto
 Desarrollar una página web completa que presente información detallada sobre la película Ratatouille, implementando:
 - Estructura HTML5 semántica y accesible
 - Diseño visual atractivo con CSS inline
@@ -19,45 +19,43 @@ Desarrollar una página web completa que presente información detallada sobre l
 
 ## Características Principales
 
-Contenido Multimedia
+###  Contenido Multimedia
 - **Pósters oficiales** de la película en alta calidad
 - **Galería de imágenes** con escenas representativas
 - **Tráilers oficiales** integrados desde YouTube
 - **Videos promocionales** y escenas especiales
 
-Información Completa
+###  Información Completa
 - **Sinopsis detallada** de la trama
 - **Personajes principales** con descripciones
 - **Datos técnicos** (año, duración, estudio, premios)
 - **Curiosidades** y referencias a otras películas de Pixar
 
-Diseño Visual
+###  Diseño Visual
 - **Esquema de colores** inspirado en la película (dorado, negro, rojo)
 - **Tipografía legible** y jerarquía visual clara
 - **Layout responsivo** con flexbox
 - **Elementos interactivos** con efectos hover
 
-Funcionalidades Interactivas
+###  Funcionalidades Interactivas
 - **Formulario de comentarios** con validación
 - **Sistema de calificación** con estrellas
 - **Navegación interna** con anclas
 - **Enlaces externos** al sitio oficial de Pixar
 
-Tecnologías Utilizadas
+## Tecnologías Utilizadas
 - **HTML5:** Estructura semántica y etiquetas modernas
 - **CSS3:** Estilos inline para diseño y layout
-- **JavaScript:** Funcionalidad de formularios (implícita)
-- **YouTube API:** Integración de videos
-- **Flexbox:** Sistema de layout responsivo
 
-Estructura del Proyecto
-
+## Estructura del Proyecto
+\`\`\`
 proyecto/
-# Página principal
-# Documentación del proyecto
-# Recursos multimedia (externos)
-# Imágenes desde Pinterest
-# Videos desde YouTube
+├── index.html          # Página principal
+├── README.md          # Documentación del proyecto
+└── assets/            # Recursos multimedia (externos)
+    ├── images/        # Imágenes desde Pinterest
+    └── videos/        # Videos desde YouTube
+\`\`\`
 
 ## Instalación y Uso
 
@@ -67,42 +65,46 @@ proyecto/
 
 ### Pasos de Instalación
 1. **Clonar o descargar** el repositorio
+   \`\`\`bash
    git clone [URL-del-repositorio]
-   
-3. **Navegar** al directorio del proyecto
-   cd Clase-3.-Estructura-Base-html-y-etiquetas
+   \`\`\`
 
-4. **Abrir** el archivo principal
+2. **Navegar** al directorio del proyecto
+   \`\`\`bash
+   cd Clase-3.-Estructura-Base-html-y-etiquetas
+   \`\`\`
+
+3. **Abrir** el archivo principal
    - Hacer doble clic en `index.html`
    - O abrir con navegador web preferido
 
-5. **Explorar** las funcionalidades
+4. **Explorar** las funcionalidades
    - Navegar por las diferentes secciones
    - Ver los tráilers integrados
    - Completar el formulario de comentarios
 
 ## Secciones de la Página
 
-Navegación Superior
+###  Navegación Superior
 - Enlace interno al formulario de comentarios
 - Enlace externo al sitio oficial de Pixar
 
-### 🎭 Información Principal
+###  Información Principal
 - **Título estilizado** con colores temáticos
 - **Datos técnicos** (director, guionista, reparto)
 - **Sinopsis completa** de la película
 
-### 👥 Personajes y Curiosidades
+### Personajes y Curiosidades
 - **Lista de personajes principales** con descripciones
 - **Datos curiosos** y referencias a otras películas de Pixar
 - **Imágenes ilustrativas** de alta calidad
 
-### 🎥 Contenido Multimedia
+###  Contenido Multimedia
 - **Galería de imágenes** con diseño en grid
 - **Tráilers oficiales** embebidos desde YouTube
 - **Tabla informativa** con datos técnicos
 
-### 📝 Interacción del Usuario
+###  Interacción del Usuario
 - **Formulario de comentarios** con campos validados
 - **Sistema de calificación** con estrellas
 - **Área de texto** para opiniones detalladas
@@ -131,19 +133,19 @@ Navegación Superior
 
 ## Buenas Prácticas Implementadas
 
-### ✅ Accesibilidad
+###  Accesibilidad
 - Atributos `alt` en todas las imágenes
 - Etiquetas `label` asociadas a campos de formulario
 - Estructura semántica clara
 - Contraste de colores adecuado
 
-### ✅ SEO y Metadatos
+###  SEO y Metadatos
 - Título descriptivo en `<title>`
 - Meta charset UTF-8
 - Meta viewport para responsividad
 - Atributo `lang="es"` en HTML
 
-### ✅ Usabilidad
+### Usabilidad
 - Navegación intuitiva
 - Enlaces con `target="_blank"` para sitios externos
 - Formulario con validación HTML5
@@ -178,4 +180,3 @@ Proyecto desarrollado con fines educativos. El contenido de Ratatouille es propi
 ---
 
 **Nota:** Este proyecto demuestra la implementación práctica de conceptos fundamentales de desarrollo web frontend, enfocándose en la estructura HTML semántica y el diseño visual efectivo.
-
