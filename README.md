@@ -50,12 +50,11 @@ Desarrollar una página web completa que presente información detallada sobre l
 ## Estructura del Proyecto
 \`\`\`
 proyecto/
-├── index.html          # Página principal
-├── README.md          # Documentación del proyecto
-└── assets/            # Recursos multimedia (externos)
-    ├── images/        # Imágenes desde Pinterest
-    └── videos/        # Videos desde YouTube
-\`\`\`
+# Página principal
+# Documentación del proyecto
+# Recursos multimedia (externos)
+# Imágenes desde Pinterest # Videos desde YouTube
+
 
 ## Instalación y Uso
 
